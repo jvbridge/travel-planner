@@ -7,7 +7,9 @@
     "sequelize": "^6.19.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "lint": "npx eslint **/*.js --quiet",
+    "test": "npm run lint"
   },
   "name": "travel-planner",
   "description": "a simple backend api using express to get information for travel planning",
