@@ -1,17 +1,19 @@
 {
   "dependencies": {
+    "eslint": "^8.14.0",
     "express": "^4.18.1",
     "mysql2": "^2.3.3",
     "sequelize": "^6.19.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "lint": "npx eslint **/*.js --quiet; exit 0",
+    "test": "npm run lint"
   },
   "name": "travel-planner",
   "description": "a simple backend api using express to get information for travel planning",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jvbridge/travel-planner.git"
