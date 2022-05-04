@@ -1,8 +1,8 @@
 const express = require("express");
-const apiRoutes = require('./api');
+const apiRoutes = require("./api");
 
 const api = express.Router();
 
-api.use('/api', apiRoutes);
+api.use("/api", apiRoutes);
 
 module.exports = api;
