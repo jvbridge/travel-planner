@@ -32,3 +32,5 @@ Traveller.init(
     modelName: "traveller",
   }
 );
+
+module.exports = Traveller;
