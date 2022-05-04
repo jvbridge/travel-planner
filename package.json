@@ -9,7 +9,8 @@
   "scripts": {
     "start": "node server.js",
     "lint": "npx eslint **/*.js --quiet",
-    "test": "npm run lint"
+    "test": "npm run lint",
+    "seed": "node ./seeds/seed.js"
   },
   "name": "travel-planner",
   "description": "a simple backend api using express to get information for travel planning",
