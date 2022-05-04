@@ -3,5 +3,24 @@
     "express": "^4.18.1",
     "mysql2": "^2.3.3",
     "sequelize": "^6.19.0"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "travel-planner",
+  "description": "a simple backend api using express to get information for travel planning",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvbridge/travel-planner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jvbridge/travel-planner/issues"
+  },
+  "homepage": "https://github.com/jvbridge/travel-planner#readme"
 }
