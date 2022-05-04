@@ -18,6 +18,20 @@ Trips.init(
     traveller_amount: {
       type: DataTypes.INTEGER,
     },
+    traveller_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: "traveller",
+        key: "id",
+      },
+    },
+    location_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: "location",
+        key: "id",
+      },
+    },
   },
   {
     sequelize,
