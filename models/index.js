@@ -1,17 +1,17 @@
 const Location = require("./Location");
 const Traveller = require("./Traveller");
-const Trips = require("./Trips");
+const Trip = require("./Trip");
 
 Traveller.belongsToMany(Location, {
-  through: Trips,
+  through: Trip,
 });
 
 Location.belongsToMany(Traveller, {
-  through: Trips,
+  through: Trip,
 });
 
 module.exports = {
   Location,
   Traveller,
-  Trips,
+  Trip,
 };
